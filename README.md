@@ -55,10 +55,18 @@ mvn clean package
 ```
 
 ## Usage
-
+To start the application:
 ```bash
 mvn spring-boot:run
 ```
+
+Included is the Postman test collection JSON file with all available REST methods to test:
+```
+Shopkeeper Test.postman_collection.json
+```
+
+But regular CURL command-line testing is also available.
+
 
 A normal calls to GET and POST will return a 401 error, because all endpoints are protected, and need authentication.
 
