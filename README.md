@@ -191,6 +191,9 @@ Implemented a surge-price mechanism:
 - if item is accessed more than 10 times (11 or more times) in one hour, it's price being increased/surged by 10% (both values configurable). 
 - each subsequent access to the item refreshes surge status. 
 - surged price goes back to basse price in one hour, unless there was enough activity (11 or more times) to prolong surge price.
+
+To keep track of surge price changes, each Item type has a Queue field, where recent item-access'es timestamps are stored. Queue is limited in max size (11 elements). Queue functionality is implemented with ArrayList type. 
+
 As per requirements document, price is of type integer, and does not have a fractions.
 
 
