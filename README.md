@@ -1,9 +1,14 @@
 # ShopKeeper
 Demo Shopkeeper project, using Spring Boot, Spring REST, Spring Security.
+
 Written using Java11 and Spring Boot 2.2.6. 
+
 Data storage implemented with In-memory H2 database.
+
 Tests with JUnit 4.13. 
+
 REST methods comply with HATEOAS 1.0.4 
+
 Application is done as a simple MVC pattern.
 
 For the purpose of simple demo, Spring Security was implemented as HTTP Basic authentication. 
